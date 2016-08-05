@@ -5,8 +5,8 @@
 RCT_EXPORT_MODULE()
 
 - (NSDictionary *)constantsToExport {
-
-    return DOT_ENV
-
+    return @{
+      @"environment": [NSProcessInfo processInfo].environment,
+    };
 }
 @end
