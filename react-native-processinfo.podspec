@@ -7,10 +7,10 @@ Pod::Spec.new do |spec|
   spec.version                = package['version']
   spec.summary                = package['description']
   spec.description            = package['description']
-  spec.homepage               = "https://github.com/classapp/react-native-video-helper/"
+  spec.homepage               = "https://github.com/classapp/react-native-processinfo/"
   spec.license                = { :type => package['licence'], :file => "LICENSE" }
   spec.author                 = package['author']
-  spec.source                 = { :git => "https://github.com/classapp/react-native-video-helper.git", :tag => "#{spec.version}" }
+  spec.source                 = { :git => "https://github.com/classapp/react-native-processinfo.git", :tag => "#{spec.version}" }
   spec.source_files           = "ios", "ios/*.{h,m}"
   spec.platform               = :ios, "8.0"
   spec.dependency 'React'
