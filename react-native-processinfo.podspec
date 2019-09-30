@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.summary                = package['description']
   spec.description            = package['description']
   spec.homepage               = "https://github.com/classapp/react-native-processinfo/"
-  spec.license                = { :type => "MIT", :file => "LICENSE" }
+  spec.license                = { :type => "MIT", :file => "LICENCE" }
   spec.author                 = package['author']
   spec.source                 = { :git => "https://github.com/classapp/react-native-processinfo.git", :tag => "#{spec.version}" }
   spec.source_files           = "ios", "ios/*.{h,m}"
