@@ -1,6 +1,6 @@
-#import "ReactNativeProcessInfo.h"
+#import "RNProcessInfo.h"
 
-@implementation ReactNativeProcessInfo
+@implementation RNProcessInfo
 
 RCT_EXPORT_MODULE()
 
