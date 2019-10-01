@@ -1,5 +1,4 @@
-'use strict';
-
 import { NativeModules } from 'react-native';
+const { RNProcessInfo } = NativeModules;
 
-export default NativeModules.ReactNativeProcessInfo;
+export default RNProcessInfo;

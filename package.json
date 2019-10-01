@@ -5,15 +5,16 @@
   "keywords": ["nsprocessinfo", "processinfo", "react-native", "ios"],
   "homepage": "https://github.com/mikelambert/react-native-processinfo",
   "contributors": [],
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/mikelambert/react-native-processinfo"
   },
   "private": false,
   "author": "Mike Lambert",
-  "files": [
-    "RNProcessInfo/",
-    "index.js"
-  ],
+  "devDependencies": {
+    "react": "16.8.3",
+    "react-native": "0.60.5"
+  },
   "license": "MIT"
 }
