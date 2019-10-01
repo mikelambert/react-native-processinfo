@@ -1,6 +1,6 @@
 {
   "name": "react-native-processinfo",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Expose iOS NSProcessInfo properties to React Native apps",
   "keywords": ["nsprocessinfo", "processinfo", "react-native", "ios"],
   "homepage": "https://github.com/mikelambert/react-native-processinfo",
